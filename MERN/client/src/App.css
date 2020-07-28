@@ -1,0 +1,84 @@
+
+.App {
+  text-align: center;
+  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.1zoom.me%2Fru%2Fwallpaper%2F466874%2Fz14587.2%2F&psig=AOvVaw1MOvOXehLXhK0Ks0LnlM4T&ust=1594725289326000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIjKq-eMyuoCFQAAAAAdAAAAABAn");
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size:cover;
+  background-position: center;
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ .btn-dark{
+
+background-color: black;
+
+color: white;
+
+}
+
+
+.btn-dark:hover,{background-color: black;
+
+color: white;}
+
+.btn-dark:focus,{background-color: black;
+
+color: white;}
+
+.btn-dark:visited{
+
+background-color: black;
+
+color: white;
+
+}
+body .bg-dark {
+
+box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5)
+}
+body {
+
+    font-size: 1em;
+    color: #eee;
+    background-color: #383838;
+    background-size: cover;
+    background-image: url(./components/34.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+body .bg-dark {
+background-color: #000000!important;
+
+box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5)
+}
